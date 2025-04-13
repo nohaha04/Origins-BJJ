@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #28a745; /* Irish Green */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Timetable Section */
+#timetable {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#timetable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#timetable th, #timetable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+#timetable th {
+    background-color: #ff7f00; /* Irish Orange */
+    color: #fff;
+}
+
+#timetable td {
+    background-color: #f9f9f9;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #28a745; /* Irish Green */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
